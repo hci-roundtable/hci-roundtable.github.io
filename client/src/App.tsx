@@ -22,7 +22,7 @@ const App = () => {
       <div className="w-32 p-4 bg-white shadow-md overflow-y-auto">
         <h2 className="text-lg font-bold mb-2 text-gray-800 text-center">6기 멤버</h2>
         <p className="text-xs text-gray-500 mb-6 text-center">
-          아래에서 출석한 사람을 눌러주세요
+          오늘 출석한 사람을 눌러주세요
         </p>
         <div className="flex flex-col gap-6">
           {availableMembers.map(member => (
@@ -40,7 +40,7 @@ const App = () => {
       <div className="w-32 p-4 bg-white shadow-md overflow-y-auto border-x border-slate-100">
         <h2 className="text-lg font-bold mb-2 text-gray-800 text-center">출석한 사람</h2>
         <p className="text-xs text-gray-500 mb-4 text-center">
-          다음 근황 발표할 사람을 눌러주세요
+          다음 발표할 사람을 눌러주세요
         </p>
         <button
           onClick={() => dispatch(shuffleQueue())}
