@@ -17,16 +17,16 @@ export interface Member {
 }
 
 export const members: Member[] = [
-  { name: "현성", picture: hyunsungcho },
-  { name: "재원", picture: jaewonkim },
-  { name: "세윤", picture: seyunkim },
-  { name: "해랑", picture: ryuhaerangchoi },
-  { name: "미나", picture: minahuh },
-  { name: "기룽", picture: kiroongchoe },
-  { name: "지원", picture: jiwonyang },
-  { name: "주훈", picture: juhoonlee },
-  { name: "정언", picture: jeongeonpark },
   { name: "기훈", picture: kihoonson },
-  { name: "수빈", picture: soobincho },
+  { name: "길웅", picture: kiroongchoe },
+  { name: "미나", picture: minahuh },
+  { name: "세윤", picture: seyunkim },
+  { name: "재원", picture: jaewonkim },
   { name: "재인", picture: janelee },
+  { name: "정언", picture: jeongeonpark },
+  { name: "주훈", picture: juhoonlee },
+  { name: "지원", picture: jiwonyang },
+  { name: "수빈", picture: soobincho },
+  { name: "해랑", picture: ryuhaerangchoi },
+  { name: "현성", picture: hyunsungcho },
 ] 
