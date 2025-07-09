@@ -10,6 +10,7 @@ import jeongeonpark from "../pictures/jeongeonpark.jpg"
 import kihoonson from "../pictures/kihoonson.jpg"
 import soobincho from "../pictures/soobincho.jpeg"
 import janelee from "../pictures/janelee.jpeg"
+import seokhyeonhwang from "../pictures/seokhyeonhwang.jpg"
 
 export interface Member {
   name: string
@@ -20,6 +21,7 @@ export const members: Member[] = [
   { name: "기훈", picture: kihoonson },
   { name: "길웅", picture: kiroongchoe },
   { name: "미나", picture: minahuh },
+  { name: "석현", picture: seokhyeonhwang },
   { name: "세윤", picture: seyunkim },
   { name: "재원", picture: jaewonkim },
   { name: "재인", picture: janelee },
