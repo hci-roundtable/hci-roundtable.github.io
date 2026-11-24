@@ -20,7 +20,7 @@ const App = () => {
     <div className="h-screen flex bg-slate-50">
       {/* Available Members */}
       <div className="w-32 p-4 bg-white shadow-md overflow-y-auto">
-        <h2 className="text-lg font-bold mb-2 text-gray-800 text-center">6기 멤버</h2>
+        <h2 className="text-lg font-bold mb-2 text-gray-800 text-center">7기 멤버</h2>
         <p className="text-xs text-gray-500 mb-6 text-center">
           오늘 출석한 사람을 눌러주세요
         </p>
